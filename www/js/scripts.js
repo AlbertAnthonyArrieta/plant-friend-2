@@ -24,7 +24,7 @@ function dryout() {
   checkhealth();
   var watertimer = setTimeout(dryout, 500);
 }
-dryout();
+//dryout();
 
 function starving() {
   food--;
@@ -32,7 +32,7 @@ function starving() {
   checkhealth();
   var foodtimer = setTimeout(starving, 500);
 }
-starving();
+//starving();
 
 function checkhealth() {
   if (waterlevel <= nowater || waterlevel >= drowning || food <= nofood) {
